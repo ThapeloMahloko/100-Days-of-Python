@@ -3,7 +3,7 @@ This  is a treasure hunt game
 """
 print("""
    ____________________________________________________________________
- / \-----     ---------  -----------     -------------- ------    ---- \
+ / \-----     ---------  -----------     -------------- ------    ---- /
  \_/__________________________________________________________________/
  |~ ~~ ~~~ ~ ~ ~~~ ~ _____.----------._ ~~~  ~~~~ ~~   ~~  ~~~~~ ~~~~|
  |  _   ~~ ~~ __,---'_       "         `. ~~~ _,--.  ~~~~ __,---.  ~~|
@@ -50,16 +50,16 @@ else:
     print("Game Over! You chose a wrong path.")
     exit()
 
-if path == swim:
+if path == "swim":
     print("You reached the island by swimming")
     path = input("""
                 You are on the island.
                 There are three caves to choose from. One has the treasure
                  Which cave do you choose? ("cave1" or "cave2" or "cave3") 
                  """).lower()
-elif path == boat:
+elif path == "boat":
     print("The boat has pirates the stole, because they also want the treasure")
-    break
+    exit()
 else:
     print("Game Over! You chose a wrong option.")
     exit()
