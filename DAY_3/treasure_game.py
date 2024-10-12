@@ -59,7 +59,7 @@ if path == swim:
                  """).lower()
 elif path == boat:
     print("The boat has pirates the stole, because they also want the treasure")
-    exit()
+    break
 else:
     print("Game Over! You chose a wrong option.")
     exit()
