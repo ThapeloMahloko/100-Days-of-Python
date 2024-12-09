@@ -18,3 +18,6 @@ num_6 = random.randint(1,49)
 
 # Lottery List
 lottery_numbers = [num_1, num_2, num_3, num_4, num_5, num_6]
+
+# Display the numbers
+print(lottery_numbers)
