@@ -1,6 +1,6 @@
 """
 Random List Picker
-======================================================
+=========================================================
 Create a program that asks the user for five favorite foods and stores them in a list. 
 Then, randomly pick one item from the list and display it
 """

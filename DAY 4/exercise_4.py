@@ -1,5 +1,5 @@
 """
-Lottery Number Generator
+Lottery Number Generator  .
 Write a program that generates a list of six random numbers between 1 and 49 for a lottery ticket.
 Make sure the numbers are unique.
 """
@@ -20,4 +20,4 @@ num_6 = random.randint(1,49)
 lottery_numbers = [num_1, num_2, num_3, num_4, num_5, num_6]
 
 # Display the numbers
-print(lottery_numbers) 
+print(lottery_numbers)

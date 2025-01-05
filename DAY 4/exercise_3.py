@@ -1,6 +1,6 @@
 """
 Word Shuffle
-============================================================
+==============================================================
 Write a program that takes a sentence as input, splits it into words, 
 and shules the words randomly. Print the shuled sentence.
 """

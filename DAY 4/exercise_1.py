@@ -1,6 +1,6 @@
 """
 Random Number Guessing
-===============================================
+===================================================
 Write a program that generates a random number between 1 and 20.
 The users has to guess the number, and the program gives hints like
 "Too high" or "Too Low" until the user guesses the number correctly.

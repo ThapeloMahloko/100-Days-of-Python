@@ -8,7 +8,8 @@ correct or not
 # Import the random module
 import random
 
-# Random numbers varible
+# Random numbers varible 
+
 random_number = random.randint(1,100)
 
 # Check a if the random number is odd or even

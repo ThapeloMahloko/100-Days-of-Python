@@ -1,5 +1,5 @@
 """
-Heads or Tails Program
+Heads or tails Program
 """
 # Import random module
 import random

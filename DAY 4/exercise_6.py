@@ -13,6 +13,7 @@ task_2 = input("Enter your second task: ")
 task_3 = input("Enter last task: ")
 
 # Make a list of the tasks
+
 tasks = []
 tasks.append(task_1)
 tasks.append(task_2)
