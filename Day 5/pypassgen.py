@@ -21,9 +21,9 @@ import random
 import string
 password_list = []
 
-num_letters = input("How many letters should be in the password?")
-num_digits = input("How many digits should be in the password?")
-num_symbols = input("How many symbols should be in the password?")
+num_letters = input("How many letters should be in the password?\n ")
+num_digits = input("How many digits should be in the password?\n ")
+num_symbols = input("How many symbols should be in the password?\n ")
 
 for i in range(int(num_letters)):
     password_list.append(random.choice(string.ascii_letters))
