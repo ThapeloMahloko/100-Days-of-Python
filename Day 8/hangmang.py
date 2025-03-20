@@ -10,9 +10,10 @@ print(chosen_word)
 print("_ " * len(chosen_word))
 
 
-display = ""
+display = "_"
+attempts = 10
 
-while True:
+while '_' in display and attempts > 0:
     guess = input("Guess the letter in the word: ").lower()
     for letter in chosen_word:
         if letter == guess:
