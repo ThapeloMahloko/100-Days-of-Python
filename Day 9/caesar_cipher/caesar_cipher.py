@@ -14,7 +14,7 @@ def caesar_cipher(task:str, original_text:str, shift_amount:int):
         for i in range(len(original_text)):
             if original_text[i] in alphabets:
                 position = alphabets.index(original_text[i])
-                new_position = position - shift
+                new_position = position - shift_amount
                 if new_position < 0:
                     new_position -= 1
                 results += alphabets[new_position]
