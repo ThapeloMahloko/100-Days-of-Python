@@ -85,11 +85,12 @@ while not game_over:
             display += "_"
 
     print(display)
-    
+   
     if guess not in chosen_word:
         game_lives -= 1
-        
-    print(shapes[game_lives - 1])
+    print(f"Game live: {game_lives}")
+    if game_lives > 0:
+        print(shapes[game_lives - 1])
     if "_" not in display:
         game_over = True
         print("You win!")
