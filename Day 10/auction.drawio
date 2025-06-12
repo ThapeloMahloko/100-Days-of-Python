@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Page-1" id="AhRK07erZXfTE6RxV2ae">
+    <mxGraphModel dx="1376" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-1" target="_Ny06LY1mXR5Jc3S_3-B-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="162" y="-128" width="108" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-1" target="_Ny06LY1mXR5Jc3S_3-B-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-3" target="_Ny06LY1mXR5Jc3S_3-B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-3" value="Show logo from art.py" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="163" y="-74" width="106" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-4" value="Ask for Name Input" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="129" y="-3" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-5" target="_Ny06LY1mXR5Jc3S_3-B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-5" value="Ask for Bid Price" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="129" y="60" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-6" target="_Ny06LY1mXR5Jc3S_3-B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-6" value="Add Name and Bid into a dictionary as the key and value" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="128" y="119" width="176" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-25" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-7" target="_Ny06LY1mXR5Jc3S_3-B-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.88890697337956" y="224" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="84" y="226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-7" value="Ask if there are other&amp;nbsp;&lt;div&gt;users who want to bid&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="128" y="185" width="177" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-28" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontSize=12;fontColor=#143642;startSize=8;endSize=8;fillColor=#FAE5C7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="10" as="targetPoint" />
+            <mxPoint x="75.99999999999977" y="327.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="359.5" />
+              <mxPoint x="-10" y="359.5" />
+              <mxPoint x="-10" y="180.5" />
+              <mxPoint x="-10" y="10.5" />
+              <mxPoint x="110" y="10.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-8" value="Clear the screen" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="43" y="286" width="86" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-9" value="Find the highest bid in the dictionary and declare them as the winner" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="303" y="286" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ny06LY1mXR5Jc3S_3-B-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="_Ny06LY1mXR5Jc3S_3-B-7" target="_Ny06LY1mXR5Jc3S_3-B-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307" y="228" as="sourcePoint" />
+            <mxPoint x="357" y="178" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="404" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
