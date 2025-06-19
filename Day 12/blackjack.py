@@ -6,6 +6,7 @@ or higher.
 The game continues until the player decides to stop playing.
 """
 import random 
+from art import logo  # Assuming you have an art.py file with the logo defined
 
 def deal_card():
     """Returns a random card from the deck."""
@@ -43,7 +44,7 @@ def compare(player_score, dealer_score):
 def play_blackjack():
     """Main function to play the Blackjack game."""
     print("Welcome to Blackjack!")
-    
+    print(logo)
     player_hand = [deal_card(), deal_card()]
     dealer_hand = [deal_card(), deal_card()]
 
