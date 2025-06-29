@@ -1,7 +1,6 @@
 """
-Higer Lower game to compare the number of followers of two accounts.
+Higher Lower game to compare the number of followers of two accounts.
 """
-
 
 import random
 from game_data import data
@@ -11,23 +10,20 @@ def choose_random_acc():
     """
     Choose an account at random
     """
-    new_acc = random.choice(data)
-    return new_acc
+    return random.choice(data)
 
-def compare_users(user_A: dict, user_B:dict):
+def compare_users(user_A: dict, user_B: dict):
     """
-    Compare the number of follower between 2 users
-    
+    Compare the number of followers between 2 users
+
     Args:
-        user_A (dict): Dictionary containing user information
-        user_A (dict): Dictionary containing user information
+        user_A (dict): Dictionary containing user A's information
+        user_B (dict): Dictionary containing user B's information
 
-    Return:
-        str either it is "A" or "B".
+    Returns:
+        str: Either "A" or "B", depending on who has more followers.
     """
-    followers_A = user_A["follower_count"]
-    followers_B = user_B["follower_count"]
-    if followers_A > followers_B:
+    if user_A["follower_count"] > user_B["follower_count"]:
         return "A"
     else:
         return "B"
@@ -36,29 +32,33 @@ def play_game():
     score = 0
     acc_A = None
     acc_B = None
+
     for i in range(5):
         print(logo)
-        if acc_A == None:
-            acc_A = choose_random_acc()
-        else: 
-            acc_A = acc_B
 
-        if acc_B == acc_A or acc_B == None:
+        if acc_A is None:
+            acc_A = choose_random_acc()
+        
+        acc_B = choose_random_acc()
+        while acc_B == acc_A:
             acc_B = choose_random_acc()
         
-        result = compare_users(acc_A, acc_B)
-
-        print(f"Compare A: {acc_A["name"]}, {acc_A["description"], {acc_A["country"]}}")
+        print(f"Compare A: {acc_A['name']}, {acc_A['description']}, from {acc_A['country']}")
         print(vs)
-        print(f"Against B: {acc_B["name"]}, {acc_B["description"], {acc_B["country"]}}")
-        response = input("Who has more followers? Type 'A' or 'B':").upper()
-        if result == response:
+        print(f"Against B: {acc_B['name']}, {acc_B['description']}, from {acc_B['country']}")
+
+        result = compare_users(acc_A, acc_B)
+        response = input("Who has more followers? Type 'A' or 'B': ").upper()
+
+        if response == result:
             score += 1
             print("Correct!!!")
+            acc_A = acc_B  # move forward with B
         else:
-            print("Inccorrect!!!")
-    
-    print(f"Your got {score}/5.")
+            print("Incorrect!!!")
+            break  # exit early on wrong guess
+
+    print(f"You got {score}/5.")
 
 if __name__ == "__main__":
     play_game()
